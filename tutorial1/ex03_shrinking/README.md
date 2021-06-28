@@ -20,3 +20,10 @@ Get PropEr help
 Create new propety via PropEr
 -----
     $ rebar3 new proper delete
+	
+PropEr test
+-----
+    $ rebar3 proper
+	$ rebar3 proper -m prop_delete -p prop_delete
+	$ rebar3 proper -m prop_delete -p prop_delete
+	

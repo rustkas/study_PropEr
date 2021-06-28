@@ -11,3 +11,8 @@ prop_delete() ->
     ?FORALL({X, L},
             {integer(), list(integer())},
             not lists:member(X, delete(X, L))).
+
+prop_delete_more() ->
+    numtests(1000,
+	     ?FORALL({X,L}, {integer(),list(integer())},
+		     not lists:member(X, delete(X,L)))).
