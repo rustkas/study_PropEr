@@ -18,7 +18,6 @@ Get PropEr help
 
 Create new propety via PropEr
 -----
-    $ rebar3 new proper t2b_b2t
 	$ rebar3 new proper base64
 	$ rebar3 new proper base64_01
     
@@ -27,8 +26,6 @@ Format
 -----
     $ rebar3 format
 
-EUnit test
-    $ rebar3 eunit -v
 	
 PropEr test
 -----
